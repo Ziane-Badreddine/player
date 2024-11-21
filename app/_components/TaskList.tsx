@@ -31,7 +31,7 @@ export default async function TaskList() {
                     <Search className="w-8 h-8 mr-2" />
                     <Input placeholder="filter..." className="w-[40%]" />
                 </div>
-                <div className="flex items-center justify-center flex-col gap-5 mb-10">
+                <div className="flex items-center justify-center flex-col gap-5 mb-10 w-full">
                     {players.map((play,index) => {
                     return <Task key={index} initialdata={play}/>
                     })}

@@ -22,7 +22,6 @@ const Task = ({initialdata}: Props) => {
                 <CardTitle>{initialdata.nom}</CardTitle>
             </CardHeader>
             <CardFooter className="flex gap-2">
-
                 <Button >
                     Update
                     <Pencil className="w-5 h-5" />
