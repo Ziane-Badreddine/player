@@ -7,7 +7,7 @@ import { Search } from "lucide-react";
 import db from "@/prisma/route";
 import { Label } from "@/components/ui/label";
 import ButtonAdd from "./ButtonAdd";
-import { player } from "@/prisma/generated/client";
+import { player } from "@prisma/client";
 
 
 export default async function TaskList() {
