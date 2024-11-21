@@ -5,7 +5,6 @@ import { Input } from "@/components/ui/input";
 import Task from "./Task";
 import { Search } from "lucide-react";
 import db from "@/prisma/route";
-import { player } from "@prisma/client";
 import { Label } from "@/components/ui/label";
 import ButtonAdd from "./ButtonAdd";
 
