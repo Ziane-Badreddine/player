@@ -8,13 +8,13 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
-import { player } from ".prisma/client/index"
+
 
 
 import { Pencil, Trash2 } from "lucide-react"
 
 interface Props {
-    initialdata: player
+    initialdata: any
 }
 
 const Task = ({initialdata}: Props) => {
