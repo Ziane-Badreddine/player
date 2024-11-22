@@ -8,7 +8,7 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
-import { player } from "@prisma/client"
+import { player } from ".prisma/client/index"
 
 
 import { Pencil, Trash2 } from "lucide-react"
